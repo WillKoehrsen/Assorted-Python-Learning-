@@ -4,8 +4,6 @@ from tensorflow.python.ops import rnn, rnn_cell
 import time
 mnist = input_data.read_data_sets("/tmp/data/", one_hot = True)
 
-# recurrent neural network
-
 hm_epochs = 3
 n_classes = 10
 batch_size = 128
